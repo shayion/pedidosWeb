@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clientes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Clientes</h1>
+
+  <input type="text" id="searchClient" placeholder="Buscar por nome ou CPF">
+  <button onclick="fetchClients()">Buscar</button>
+
+  <ul id="clientList"></ul>
+
+  <script type="module" src="../src/api.js"></script>
+  <script type="module" src="../src/app.js"></script>
+</body>
+</html>
