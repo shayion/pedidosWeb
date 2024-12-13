@@ -10,9 +10,13 @@
   <h1>Clientes</h1>
 
   <input type="text" id="searchClient" placeholder="Buscar por nome ou CPF">
-  <button onclick="fetchClients()">Buscar</button>
+  <button onclick="loadClients()">Buscar</button>
 
-  <ul id="clientList"></ul>
+  <ul id="clientList">
+    <!-- Os clientes serão adicionados dinamicamente aqui -->
+  </ul>
+
+  <button onclick="window.location.href='index.html'">Voltar</button>
 
   <script type="module" src="../src/api.js"></script>
   <script type="module" src="../src/app.js"></script>

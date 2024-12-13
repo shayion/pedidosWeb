@@ -23,10 +23,12 @@
     </select>
 
     <label for="client">Cliente:</label>
-    <select id="client" name="client" required></select>
+    <input type="number" id="client" name="client" required>
 
     <button type="submit">Salvar</button>
   </form>
+
+  <button onclick="window.location.href='index.html'">Voltar</button>
 
   <script type="module" src="../src/api.js"></script>
   <script type="module" src="../src/app.js"></script>
